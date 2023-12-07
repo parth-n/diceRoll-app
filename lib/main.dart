@@ -5,14 +5,11 @@ void main() {
   runApp(
     const MaterialApp(
       home: Scaffold(
-        body: GradientContainer(),
+        body: GradientContainer(
+            Color.fromARGB(255, 157, 131, 202), Color.fromARGB(255, 23, 0, 62)),
       ),
     ),
   );
   // const helps dart to optimize runtime performance
   //dart is a type-safe language-all values are of certain type
 }
-
-//custom widgets:
-
-
